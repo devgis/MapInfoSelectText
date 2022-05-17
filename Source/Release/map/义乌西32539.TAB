@@ -1,0 +1,20 @@
+!table
+!version 450
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 13
+    类型 Char (50) ;
+    线名 Char (50) ;
+    车站 Char (50) ;
+    单位编号 Char (50) ;
+    线编号 Char (50) ;
+    编号 Char (50) ;
+    类别 Char (50) ;
+    区间或车站 Char (50) ;
+    行别 Integer ;
+    设备号 Integer ;
+    起点 Integer ;
+    终点 Integer ;
+    里程 Char (12) ;
